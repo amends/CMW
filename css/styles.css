@@ -2450,6 +2450,7 @@ textarea.form-control {
     transition: none;
   }
 }
+
 .btn:hover {
   color: #212529;
   text-decoration: none;
@@ -9693,6 +9694,10 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important;
 }
+.text-center .btn {
+  text-align: center !important;
+  margin-top:3em;
+}
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -10136,6 +10141,10 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   
+}
+header.masthead.pf {
+  background-image: url("../assets/img/flagbg.jpg") !important;
+
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
