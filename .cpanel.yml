@@ -6,4 +6,5 @@ deployment:
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R portfolio.html $DEPLOYPATH
     - /bin/cp -R .cpanel.yml $DEPLOYPATH
