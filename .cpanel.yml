@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/tongtlcy/cmw.tongret.com/
-    - /bin/cp -R CMW/assets $DEPLOYPATH
-    - /bin/cp -R CMW/css $DEPLOYPATH
-    - /bin/cp -R CMW/js $DEPLOYPATH
-    - /bin/cp -R CMW/index.html $DEPLOYPATH
+    - /bin/cp -R * CMW/assets $DEPLOYPATH
+    - /bin/cp -R * CMW/css $DEPLOYPATH
+    - /bin/cp -R * CMW/js $DEPLOYPATH
+    - /bin/cp -R * CMW/index.html $DEPLOYPATH
