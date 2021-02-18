@@ -418,6 +418,12 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+.required {
+    color:red; 
+    font-weight:bold
+} 
+.human {margin: 0 0 0 12px}
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
